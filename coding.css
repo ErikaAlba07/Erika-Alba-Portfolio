@@ -1,0 +1,118 @@
+/*----------BACKGROUND-------------*/
+:root {
+  --main-background: #494D5F;
+  --main-font1: #D0BDF4;
+  --main-font2: #E5EAF5 ;
+  --main-layout: #A0D3EB;
+  --main-logo: #8458B3;
+}
+
+
+body {
+    background-image: url("images/coding/programming\ bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 0.8s ease forwards;
+    
+}
+@keyframes slideUp {
+    0%{
+        transform: translateY(20px); opacity: 0;}
+    100%{
+        transform: translateY(0); opacity: 1;
+    }
+    }
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*--------title------------*/
+.title-coding {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    Color: var(--main-font1);
+    font-size: 50px;
+    font-weight: 800;
+    margin-right: 5px;
+
+    -webkit-text-stroke: 1.5px #494D5F;
+    text-shadow: 5px 5px 7px #8458B3;
+}
+
+/*--------IMAGES--------*/
+.coding-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+}
+
+.coding {
+    /*width: calc(50% - 20px);*/
+    width: 100%;
+    max-width: 350px; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    Color: var(--main-font1);
+    font-size: 25px;
+    font-weight: 800;
+    margin-right: 5px;
+    text-shadow: 5px 5px 7px #494D5F;
+}
+
+.coding img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*--------Frame------*/
+.coding {
+    border: 5px solid #494D5F;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--main-logo);
+    box-shadow: 0 4px 8px #8458B3;
+    margin-top: 50px;
+}
+
+.coding:hover{
+    transform: scale(0.9);
+}
+
+.coding img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.title {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.note {
+    font-size: 15px;
+}
+/*-------DISCLAIMER-----------*/
+footer {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    Color: var(--main-background);;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 600px;
+    -webkit-text-stroke: 0.5px #8458B3;
+}
