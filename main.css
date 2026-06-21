@@ -578,7 +578,6 @@ footer{
     .section-header,
     .a {
         font-size: 38px;
-        -webkit-text-stroke: 0.1px #494D5F;
         Color: var(--main-font2);
         
     }
@@ -598,7 +597,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 30px;
     }
  
 
@@ -616,6 +615,9 @@ footer{
         font-size: 120px;
     }
 
+    .icon-text {
+        Color: var(--main-font2);
+    }
     .skill-list {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -715,6 +717,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 15px;
+        font-size: 25px;
     }
 }
