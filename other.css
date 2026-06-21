@@ -110,3 +110,10 @@ footer {
     max-width: 700px;
     -webkit-text-stroke: 0.5px #494D5F;
 }
+
+@media( max-width: 480px) {
+  .title{
+    -webkit-text-stroke: 0.5px #494D5F;
+  }
+}
+
