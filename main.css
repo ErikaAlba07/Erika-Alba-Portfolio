@@ -659,9 +659,13 @@ footer{
         padding: 15px;
     }
       
-    .contact-section-header {
-        font-size: 25px;
+    .contact-section-header p {
+        font-size: 20px;
    }
+
+    .skill-note-p {
+      width: 100px;
+    }
 }
 
   
@@ -730,7 +734,10 @@ footer{
         font-size: 20px;
     }
 
-  .contact-section-header {
-      font-size: 25px;
+  .contact-section-header p {
+      font-size: 20px;
     }
+  .skill-note-p{
+      width: 100px;
+  }
   }
