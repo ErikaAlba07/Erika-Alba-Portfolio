@@ -8,13 +8,13 @@
 
 
 body {
+    
     background-image: url("images/other/other\ bg.png");
-    background-size:  100%;
+    background-size:  110%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100dvh;
-    width: 100%;
-
+    min-height: 100%;
+    background-color : var(--main-background);
     opacity: 0;
     transform: translateY(50px);
     animation: slideUp 0.8s ease forwards;
@@ -66,7 +66,7 @@ body {
 
 .other img {
     width: 100%;
-    height: auto;
+    height: 75%;
     display: block;
     border-radius: 5px;
 }
@@ -79,7 +79,9 @@ body {
     text-align: center;
     background-color: var(--main-logo);
     box-shadow: 0 4px 8px #8458B3;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 400px;
 }
 
 .other:hover{
@@ -91,6 +93,7 @@ body {
 .title {
     display: block;
     margin-top: 10px;
+    margin-bottom: 250px;
     font-weight: bold;
 }
 
@@ -101,7 +104,9 @@ footer {
     Color: var(--main-logo);
     font-size: 15px;
     font-weight: 800;
-    margin-left: 600px;
-    margin-right: 150px;
+    margin-left: 450px;
+    margin-right: 65px;
+    margin-top: -30px;
+    max-width: 700px;
     -webkit-text-stroke: 0.5px #494D5F;
 }
