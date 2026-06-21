@@ -723,6 +723,7 @@ footer{
   
     .skill-text {
         font-size: 20px;
+        -webkit-text-stroke: 1px var(--main-font2);
   }
   
    .b {
