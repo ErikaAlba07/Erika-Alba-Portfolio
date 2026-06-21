@@ -504,6 +504,10 @@ footer{
     .b {
         width: 90%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
     }
 
     .skill-list {
@@ -570,10 +574,6 @@ footer{
         height: 280px;
     }
 
-     .b {
-        width: 90%;
-        margin: 0 auto;
-    }
 
     .a,
     .section-header {
@@ -589,9 +589,12 @@ footer{
         width: 80px;
     }
 
-    .b {
-        width: 95%;
+     .b {
+        width: 90%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 18px;
     }
 
@@ -693,5 +696,9 @@ footer{
    .b {
         width: 90%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
     }
 }
